@@ -6,7 +6,7 @@ const fs = require('fs');
 const split = require('split');
 const stringify = require('stringify-stream');
 const stream = require('stream');
-const geojson = require('./mapped_areas.json');
+const geojson = require('../map.json');
 const whichPolygon = require('which-polygon');
 const query = whichPolygon(geojson);
 
